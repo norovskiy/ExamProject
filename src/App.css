@@ -1,0 +1,290 @@
+.Box{
+  background-color: #244784FF;
+}
+body{
+  margin:0;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.ButtonBa{
+  background-color: #244784FF;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 8px 25px;
+  color: white;
+}
+.leftSide{
+  width: 40%;
+}
+.Boxes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.Started{
+  background-color:white ;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 8px 25px;
+  color: #244784FF;
+}
+.Startedd{
+  background-color:white ;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 7px 25px;
+  color: #244784FF;
+  margin-left: 12px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.Cardd{
+  display: flex;
+}
+.Cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.obwiy{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+.Right{
+  width: 50%;
+}
+.Minicards{
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.LeftSide{
+  width: 33%;
+}
+.Bolo{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Siniy{
+  background-color: #244784FF; 
+  padding: 30px; 
+  margin-bottom: 70px ;
+}
+.pricing-container {
+  text-align: center;
+  padding: 50px;
+  background: #244784FF;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin-top: 70px;
+}
+
+.pricing-subtitle {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #ccc;
+  text-transform: uppercase;
+}
+
+.pricing-title {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.plans-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  background-color: #1f3a61;
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+  text-align: left;
+  position: relative;
+}
+
+.premium-plan {
+  background-color: white;
+  color: #333;
+}
+
+.plan-name {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.plan-desc {
+  font-size: 14px;
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+.plan-price {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.price-highlight {
+  color: #10b981;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  color: ;
+}
+
+.features-list li {
+  margin: 10px 0;
+}
+
+.disabled {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.signup-button {
+  background-color: white;
+  color: #1f3a61;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-button.dark {
+  background-color: #1f3a61;
+  color: white;
+}
+
+.recommended-badge {
+  position: absolute;
+  top: -15px;
+  left: 15px;
+  background-color: orange;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+.faq-section {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  color: #111;
+}
+
+.faq-subtitle {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #4a6fa1;
+  text-transform: uppercase;
+}
+
+.faq-title {
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+.faq-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+.faq-icon {
+  font-size: 18px;
+  color: #00c58e;
+  flex-shrink: 0;
+}
+
+.faq-answer {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.faq-item.active .faq-icon {
+  font-size: 16px;
+  color: #00c58e;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  flex-wrap: wrap;
+  width: 90%; margin: auto;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+.Secure{
+  display: flex;
+  color: #111;
+  justify-content: space-between;
+  width: 90% ;margin: auto;
+  align-items: center;
+  margin-top: 70px;
+}
+.Secure-rightSide{
+  width: 40%;
+}
+.Comments{
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
